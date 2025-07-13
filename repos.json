@@ -1,11 +1,11 @@
 [  {
     "kernelSource": {
-      "name": "MikasaNethunter",
-      "repo": "https://github.com/noophyy/mikasa_kernel_realme2_c1.git",
-      "branch": "Light",
-      "device": "mikasa"
+      "name": "upstream_exynos850",
+      "repo": "https://github.com/samsungexynos850/upstream_exynos850.git",
+      "branch": "lineage-23.0",
+      "device": "a21s"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
