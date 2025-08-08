@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "venus",
+      "name": "venus-nethunter",
       "repo": "https://github.com/cytochromxxx/kami-kernel_xiaomi_venus.git",
-      "branch": "bka",
+      "branch": "16.0",
       "device": "venus"
     },
     "withKernelSU": true,
