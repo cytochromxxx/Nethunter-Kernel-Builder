@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "venus",
       "repo": "https://github.com/cytochromxxx/kami-kernel_xiaomi_venus.git",
-      "branch": "16.0",
+      "branch": "bka",
       "device": "venus"
     },
     "withKernelSU": true,
