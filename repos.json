@@ -1,9 +1,10 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "upstream_exynos850",
-      "repo": "https://github.com/samsungexynos850/upstream_exynos850.git",
-      "branch": "lineage-23.0",
-      "device": "a21s"
+      "name": "venus",
+      "repo": "https://github.com/Evolution-X-Devices/kernel_xiaomi_venus.git",
+      "branch": "16.0",
+      "device": "venus"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -13,8 +14,8 @@
         "name": "gas"
       },
       {
-        "repo": "https://github.com/kdrag0n/proton-clang.git",
-        "branch": "master",
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone",
+        "branch": "17",
         "name": "clang"
       }
     ],
@@ -24,15 +25,8 @@
       "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "llvm-ar",
-      "OBJDUMP": "llvm-objdump",
-      "STRIP": "llvm-strip",
-      "OBJCOPY": "llvm-objcopy",
-      "NM": "llvm-nm",
+      "AR": "",
       "CC": "clang"
-    },
-    "extraParams": {
-      "KEEP": ""
     }
   }
 ]
